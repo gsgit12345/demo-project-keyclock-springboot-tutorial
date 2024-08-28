@@ -6,6 +6,7 @@
     <modules>
         <module>demo-project-oauth-authorization-tutorial</module>
         <module>demo-project-client-credential-microservice</module>
+        <module>demo-project-oauth2-picksee-tutorial</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

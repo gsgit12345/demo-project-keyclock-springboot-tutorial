@@ -1,0 +1,24 @@
+https://www.authgear.com/post/authentication-for-spring-boot-app-with-authgear-and-oauth2
+
+Step to Implement demo
+1-Download the Keyclock13.0.2
+https://github.com/keycloak/keycloak/releases?page=6
+2-Go to the  Bin  dir and start the keyclock server
+>>standalone.bat –Djboss.http.port=8180
+
+3-Create the admin credential
+username-any
+password-any
+4--create the  realm  and give anyname like
+Realm name--oauth-demo-realm
+5--Create the client and give anyname
+client name--oauth-demo-thymeleaf-client
+
+6--put the Valid redirect url:- http://localhost:8080/login/oauth2/code/oauth-demo-thymeleaf-client
+
+7--
+Add user using user section in keyclock
+Username:-- user1
+Password:--pass
+
+
